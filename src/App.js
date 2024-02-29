@@ -8,6 +8,12 @@ import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import sideMenu from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
+import Tabtest from "./components/custom-tabs/tab-test";
+import ModalTest from "./components/custom-modal-popup/modal-test";
+import GithubProfileLoader from "./components/github-profile-finder";
+import { SearchAutoComplete } from "./components/search-autocomplete-with-api";
 
 function App() {
   return (
@@ -31,7 +37,28 @@ function App() {
       {/* <TreeView menus={sideMenu} /> */}
 
       {/* project 7 */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* project 8 */}
+      {/* <LightDarkMode /> */}
+
+      {/* project 9 */}
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* project 10 */}
+      {/* <LightDarkMode /> */}
+
+      {/* project 11 */}
+      {/* <Tabtest /> */}
+
+      {/* project 12 */}
+      {/* <ModalTest /> */}
+
+      {/* project 13 */}
+      {/* <GithubProfileLoader /> */}
+
+      {/* project 14 */}
+      <SearchAutoComplete />
     </div>
   );
 }
