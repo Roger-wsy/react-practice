@@ -14,6 +14,14 @@ import Tabtest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import GithubProfileLoader from "./components/github-profile-finder";
 import { SearchAutoComplete } from "./components/search-autocomplete-with-api";
+import TicTacToe from "./components/tic-tac-toe";
+import FeatureFlags from "./components/feature-flag";
+import FeatureFlagGlobalState from "./components/feature-flag/context";
+import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 
 function App() {
   return (
@@ -58,7 +66,31 @@ function App() {
       {/* <GithubProfileLoader /> */}
 
       {/* project 14 */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+
+      {/* project 15 */}
+      {/* <TicTacToe /> */}
+
+      {/* project 16 */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> */}
+
+      {/* project 17 */}
+      {/* <UseFetchHookTest /> */}
+
+      {/* project 18 */}
+      {/* <UseOnclickOutsideTest /> */}
+
+      {/* project 19 */}
+      {/* <UseWindowResizeTest /> */}
+
+      {/* project 20 */}
+      {/* <ScrollToTopAndBottom /> */}
+
+      {/* project 21 */}
+      {/* <ScrollToTopAndBottom /> */}
+      <ScrollToSection />
     </div>
   );
 }
